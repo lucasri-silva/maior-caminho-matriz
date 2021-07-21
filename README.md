@@ -17,11 +17,9 @@
         ./make
         ./make run
 
-<h4>Custo computacional do algoritmo desenvolvido:</h4>
+<h4>Custo computacional do algoritmo desenvolvido: n^2</h4>
 
-Custo computacional da função maiorCaminhoMatriz: n^2
-
-(6n^2 + 10n + 5) + (2 + 1 + 2) + (n + n + n + n) + (n + 2n + n + n + n + n + n) + (n + 2n + n + n + n + n + n) + (2n + 2n + n + n + n + n + n + n + n + n) + (2n + n + n + n + n + n + n) + 1 = 6n^2 + 50n + 11 = n^2
+<p>(6n^2 + 10n + 5) + (2 + 1 + 2) + (n + n + n + n) + (n + 2n + n + n + n + n + n) + (n + 2n + n + n + n + n + n) + (2n + 2n + n + n + n + n + n + n + n + n) + (2n + n + n + n + n + n + n) + 1 = 6n^2 + 50n + 11 = n^2</p>
 
 	int Matriz::maiorCaminhoMatriz(int sizeMatriz)
 		preencherMatriz(sizeMatriz); // 4n^2 + 9n + 5
