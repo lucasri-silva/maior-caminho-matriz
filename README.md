@@ -17,7 +17,7 @@
         ./make
         ./make run
 
-<h4>Custo computacional do algoritmo desenvolvido: n^2</h4>
+<h4>- Custo computacional do algoritmo desenvolvido: n^2</h4>
 
 <p>(6n^2 + 10n + 5) + (2 + 1 + 2) + (n + n + n + n) + (n + 2n + n + n + n + n + n) + (n + 2n + n + n + n + n + n) + (2n + 2n + n + n + n + n + n + n + n + n) + (2n + n + n + n + n + n + n) + 1 = 6n^2 + 50n + 11 = n^2</p>
 
@@ -79,3 +79,11 @@
 		for(int i=0; i < sizeMatriz; i++) // 2 + 2n
 			for(int j=0; j < sizeMatriz; j++) // 2 + 2n
 				this->matriz[i][j] = rand() % 100; // n
+
+
+
+<h4>- Há mais de uma maneira de resolver esse problema?</h4>
+<p>Sim, há diversas maneiras diferentes para resolver o problema. Uma outra maneira diferente de abordar o problema seria com o uso de grafos.</p>
+
+<h4>Há algum algoritmo famoso em literatura que resolva isso?</h4>
+<p></p>
