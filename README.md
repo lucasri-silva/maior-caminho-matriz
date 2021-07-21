@@ -86,4 +86,4 @@
 <p>Sim, há diversas maneiras diferentes para resolver o problema. Uma outra maneira diferente de abordar o problema seria com o uso de grafos.</p>
 
 <h4>Há algum algoritmo famoso em literatura que resolva isso?</h4>
-<p></p>
+<p>Algoritmo de Dijkstra</p>
